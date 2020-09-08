@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+      
+      <test name="validateTitle">
+      <classes>   
+      <class name="Tests.validateSignInDetails"/>
+      </classes>
+      </test>
+      
+      <test name="SignIn">
+      <classes>
+      <class name="Tests.HomePage"/>
+    </classes>
+    </test>
+    
+     <test name="Promise">
+      <classes>
+      <class name="Tests.AddPromise"/>
+    </classes>
+    </test>
+    
+     <test name="VerifySignIn">
+      <classes>
+      <class name="Tests.toVerify"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+  

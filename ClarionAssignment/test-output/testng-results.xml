@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49625" started-at="2020-09-08T18:32:16Z" finished-at="2020-09-08T18:33:06Z">
+    <groups>
+    </groups>
+    <test name="validateTitle" duration-ms="12194" started-at="2020-09-08T18:32:16Z" finished-at="2020-09-08T18:32:28Z">
+      <class name="Tests.validateSignInDetails">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Tests.validateSignInDetails@1ee9989]" name="initialise" is-config="true" duration-ms="7002" started-at="2020-09-08T18:32:16Z" finished-at="2020-09-08T18:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="to_validate_User()[pri:0, instance:Tests.validateSignInDetails@1ee9989]" name="to_validate_User" duration-ms="2647" started-at="2020-09-08T18:32:23Z" finished-at="2020-09-08T18:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_validate_User -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.validateSignInDetails@1ee9989]" name="tearDown" is-config="true" duration-ms="2486" started-at="2020-09-08T18:32:26Z" finished-at="2020-09-08T18:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.validateSignInDetails -->
+    </test> <!-- validateTitle -->
+    <test name="SignIn" duration-ms="8255" started-at="2020-09-08T18:32:28Z" finished-at="2020-09-08T18:32:37Z">
+      <class name="Tests.HomePage">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:Tests.HomePage@1d56113]" name="initialise" is-config="true" duration-ms="4967" started-at="2020-09-08T18:32:28Z" finished-at="2020-09-08T18:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="basePagenavigation()[pri:0, instance:Tests.HomePage@1d56113]" name="basePagenavigation" duration-ms="706" started-at="2020-09-08T18:32:33Z" finished-at="2020-09-08T18:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagenavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.HomePage@1d56113]" name="tearDown" is-config="true" duration-ms="2576" started-at="2020-09-08T18:32:34Z" finished-at="2020-09-08T18:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.HomePage -->
+    </test> <!-- SignIn -->
+    <test name="Promise" duration-ms="12182" started-at="2020-09-08T18:32:37Z" finished-at="2020-09-08T18:32:49Z">
+      <class name="Tests.AddPromise">
+        <test-method status="PASS" signature="AddPromise()[pri:0, instance:Tests.AddPromise@c6f5b]" name="AddPromise" duration-ms="12177" started-at="2020-09-08T18:32:37Z" finished-at="2020-09-08T18:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPromise -->
+      </class> <!-- Tests.AddPromise -->
+    </test> <!-- Promise -->
+    <test name="VerifySignIn" duration-ms="16889" started-at="2020-09-08T18:32:49Z" finished-at="2020-09-08T18:33:06Z">
+      <class name="Tests.toVerify">
+        <test-method status="PASS" signature="AddPromise()[pri:0, instance:Tests.toVerify@67c67e]" name="AddPromise" duration-ms="16880" started-at="2020-09-08T18:32:49Z" finished-at="2020-09-08T18:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPromise -->
+      </class> <!-- Tests.toVerify -->
+    </test> <!-- VerifySignIn -->
+  </suite> <!-- Suite -->
+</testng-results>
